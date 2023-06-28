@@ -92,6 +92,17 @@ margin-left:auto;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+.nav {
+    width: 30%
+}
+.socials {
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    padding-left: 10px;
+  
+}
 /*END of NAV bar*/
 
 
@@ -113,6 +124,13 @@ margin-left:auto;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.container > .socialTags {
+    display:flex;
+    align-self:flex-start;
+    flex-direction: column;
+    flex-direction: row;
+
 }
 
 .description-index {
