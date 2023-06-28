@@ -313,6 +313,15 @@ flex-direction: wrap;
   border-color: #255, 255, 255;
   transition: all 1.5s;
 }
+.gallery1 iframe {
+  width: 500px;
+  height: 300px;
+  border:3px solid;
+  margin: 20px;
+    object-fit: cover;
+  border-color: #255, 255, 255;
+  transition: all 1.5s;
+}
 
 @media screen and (max-width: 600px) {
   .gallery1 img { 
