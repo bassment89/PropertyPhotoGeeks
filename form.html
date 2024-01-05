@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css"/>
+  <title>Property Photo Geeks ltd</title>
+  <link rel="icon" type="image/x-icon" href="favicon.jpg">
 	<title>Property Photo Geeks ltd</title>
 	  <link rel="icon" type="image/x-icon" href="favicon.jpg">
 
@@ -25,10 +27,12 @@
   <ul>
 <li>Call us: 0207 0995829</li>
 <li> Email us: sales@ppgeeks.co.uk</li>
-<!-- <li>Fill out the form below (easiest)</li>
+<li>Fill out the form below (easiest)</li>
     <br></ul> </strong></div>
 <p class="description-index"> <strong>let's get started! Fill in this form to have a photo geek get in touch with you now!</strong></p>
-<form method="post" action="post">
+<form name="Shoot-request" method="POST" id="contactForm" data-netlify="true" onSubmit="submit">
+  <input type="hidden" name="ppgeeks^shoot" 
+value="Shoot-request" />
 <p><fieldset><label for="terms">I consent to the terms and conditions</label><input type="checkbox" id="terms" class="no-float"></fieldset><b>
 	<p><fieldset>
  <label for="name">Enter Your Full Name: <input id="name" name="name" type="text" placeholder="please enter your name" class=".inline" required /></label><br>
@@ -71,7 +75,7 @@
 
 
 	</p></form>
-   -->
+  
 </body>
 </p></main>
 </html>

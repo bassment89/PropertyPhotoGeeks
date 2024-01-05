@@ -124,6 +124,12 @@ li {
       width: 200px;
           text-align: center;
 
+}
+.photo-us > img {
+  width: 200px;
+  height: auto;
+  margin: 0;
+}
 
 }
 .photo-us > img {
@@ -391,6 +397,3 @@ background-color: rgb(124, 41, 106);
 margin-top: 10px;
 padding-top: 3px;
 padding-bottom: 3px;
-
-
-}
