@@ -183,7 +183,7 @@ body {
   font-family: Tahoma;
   font-size: 16px;
   padding: 0;
-        background: url(2.jpg) no-repeat center center fixed; 
+        background: url(./gallery-photos/2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
