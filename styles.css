@@ -108,7 +108,7 @@ li {
   display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));}
-}
+
 .photo-us {
  background-color: rgb(255,255,255,0.7);
     padding:100px;
@@ -139,13 +139,13 @@ li {
   }
 }
 
-}ul {
+ul {
       text-decoration:none;
       list-style-type: none;
 
 }
 .how-book {
-  text-size: 2rem;
+  font-size: 2rem;
 }
 
 a:visited {
@@ -169,7 +169,7 @@ body {
   font-family: Tahoma;
   font-size: 16px;
   padding: 0;
-        background: url(background.JPG) no-repeat center center fixed; 
+        background: url(./misc-images/background.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
